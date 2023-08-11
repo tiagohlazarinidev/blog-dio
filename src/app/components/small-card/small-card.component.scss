@@ -5,19 +5,17 @@
 
 .container__small-card-content {
   display: flex;
-  flex-direction: row;
+  flex: 1 1 200px;
 }
 
 .small-card__photo>img {
-  width: 200px;
-  min-width: 200px;
-  margin-right: 20px;
+  min-width: 100%;
+  max-width: 200px;
 }
 
 .small-card__title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 0.8em;
+  margin-left: 10px;
 }
 
 .container__small-card__separator {
